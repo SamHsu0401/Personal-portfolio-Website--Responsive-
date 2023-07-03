@@ -47,6 +47,7 @@
 
 .intro .text h1{
     font-size: var(--h1TextSize);    
+    
 }
 
 .intro .highlight{
@@ -67,17 +68,18 @@
     width: 4%;
 }
 
-.intro .block a{
-    color:rgb(0, 0, 0);
-    box-shadow: 2px 2px black;
-    text-decoration:none;
-}
 
 .direct{
+    font-family: 'Inter',sans-serif;
+    color:rgb(0, 0, 0);
     text-align: center;
     width: 40%;
     background-color: #BCC1BA;
     border-radius: 5px;
+    text-decoration:none;
+    text-align: center;
+    padding-left: 10px;
+
 }
 
 .direct:hover{
@@ -95,6 +97,7 @@
     }
     .intro .highlight{
         box-shadow: 8px 8px #888c86;
+        
     }
     .direct{
         text-align: center;
